@@ -1,0 +1,124 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+TC:wght@200;300;400;500;600;700;900&display=swap');
+body{font-family: 'Noto Serif TC', serif;}
+.container {
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 17px;
+    background-color: #FBFBFB;
+}
+header  {
+    background-position: 74% 153%;
+    height: 565px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(%E6%AF%9B%E6%AF%9B%E5%AE%B6%E6%97%8F-%E7%AD%86%E8%A2%8B.png);
+}
+header h1 {
+    color: #38E8FF;
+    text-align: center;
+    font-size: 48px;
+}
+nav {
+    text-align: center;
+    color: #FFFBFB;
+    font-size: x-large;
+    -webkit-box-shadow: 0px 0px;
+    box-shadow: 0px 0px;
+}
+nav a:link {
+    color: #FFF19A;
+    text-decoration: none;
+    font-size: medium;
+    height: 100vh;
+}
+nav a:visited {
+    color: #AA47FF;
+    background-color: #8127FF;
+    background-size: cover;
+}
+
+article h3  {
+    color: #FFFFF;
+    background-color: #B2C6FF;
+    padding-left: 6pt;
+    text-align: left;
+    line-height: 45px;
+}
+.heroimg {
+    height: 243px;
+    background-image: url(%E6%AF%9B%E6%AF%9B%E5%AE%B6%E6%97%8F-%E6%9D%AF%E5%A5%97.png);
+    background-size: cover;
+    background-position: 1% 80%;
+}
+article a:link  {
+    color: #4ABCBA;
+}
+article a:visited {
+    color: #00538F;
+}
+.title {
+}
+
+.box3:hover {
+    color: #F5A2E0;
+    background-color: #000000;
+}
+.wow.bounceInRight .box2 {
+    background-color: #FF925A;
+}
+
+.box1 {
+    width: 100%;
+    background-color: #FDF98F;
+	transform: translateX(200px)
+    text-align: center;
+	line-height: 30px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    height: 100%;
+}
+	
+.box1:hover {
+    transform: translateX(6px);
+    font-size: x-large;
+    text-align: center;
+    line-height: 40px;
+}
+.box4 {
+    width: 100%;
+    height: 100%;
+    background-color: #75CEE4;
+	text-align: center;
+    line-height: 115px;
+	-webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+}
+.box4:hover {
+	transform: rotate(10deg);
+	font-size: x-large;
+    text-align: center;
+    line-height: 115px;
+}
+
+.box5 {
+    width: 100%;
+    background-color: #FFB7F7;
+	transform: translateX(200px)
+    text-align: center;
+	line-height: 30px;
+    -webkit-transition: all 1s ease-in-out 0s;
+    -o-transition: all 1s ease-in-out 0s;
+    transition: all 1s ease-in-out 0s;
+    height: 100%;
+}
+	
+.box5:hover {
+    transform: translateX(6px);
+    font-size: x-large;
+    text-align: center;
+    line-height: 40px;
+}
